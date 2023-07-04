@@ -30,10 +30,10 @@ const server = http.createServer((req, res) => {
       name: 'Fulano',
       email: 'fulano@gmail.com'
     });
-    return res.end('Users created');
+    return res.writeHead(201).end();
   }
 
-  return res.end('Hello Node.js!');
+  return res.writeHead(404).end('not found');
 });
 
 server.listen(3333);
