@@ -1,21 +1,18 @@
 {
-  "name": "01-fundamentos-nodejs",
-  "type": "module",
+  "name": "solid_com_nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "GymPass style app.",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch src/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DaksonC/01-fundamentos-nodejs.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DaksonC/01-fundamentos-nodejs/issues"
-  },
-  "homepage": "https://github.com/DaksonC/01-fundamentos-nodejs#readme"
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "tsup": "^7.2.0",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
 }
